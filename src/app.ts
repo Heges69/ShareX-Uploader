@@ -16,7 +16,6 @@ server.on('request', (req: IncomingMessage, res: ServerResponse) => {
       post(req, res).catch(err => error(req, res, err))
       break;
     default:
-      res.statusCode = 405;
       res.writeHead(405, {
         'Content-Type': 'text/html'
       }).end(`
