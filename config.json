@@ -1,0 +1,5 @@
+{
+  "port": 3000,
+  "auth": "key",
+  "length": 4
+}
