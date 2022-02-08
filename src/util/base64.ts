@@ -1,6 +1,6 @@
 import { randomBytes } from "crypto";
 const b62 = (() => {
-  const alphabet: string = 'abcdefghijklmnopqrestuvwxyz';
+  const alphabet: string = 'abcdefghijklmnopqrstuvwxyz';
   return [
     ...alphabet,
     ...alphabet.toUpperCase(),
